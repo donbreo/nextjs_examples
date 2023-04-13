@@ -9,12 +9,6 @@ export default function Index() {
         <div className={styles.sectionContent}>
           <ul>
             <li className={styles.contentElement}>
-              <Link href="/session3/image">{`Nextjs image`}</Link>
-            </li>
-            <li className={styles.contentElement}>
-              <Link href="/session3/apicall">{`Api call example in nextjs`}</Link>
-            </li>
-            <li className={styles.contentElement}>
               <Link href="/session3/layoutexample">{`Layout for page`}</Link>
             </li>
             <li className={styles.contentElement}>
