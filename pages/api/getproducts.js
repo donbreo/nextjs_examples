@@ -12,6 +12,7 @@ const handler = async (req, res) => {
             console.log("subrequest",req.body);
             let { data } = await axios.get(`https://dummyjson.com/products`, options);
             console.log("data in server:: ",data)
+
             res.status(200).json({ status: true, data: data });
         } else {
             res.status(400).json({ status: false, message: "Invalid Request" })

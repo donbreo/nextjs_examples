@@ -1,13 +1,22 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { getProducts } from "../../actions/product";
+import axios from "axios";
 
 export default function Index() {
   const [apiData, setapiData] = useState(true);
   const [isLoading, setisLoading] = useState(true);
-
+  const getProducts = async () => {
+    const requestOptions = {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: { text: "some text" },
+    };
+    let { data } = await axios.post(`/api/getproducts`, requestOptions);
+    return data;
+  };
   const fetchData = () => {
     console.log("API Called for:: ");
+
     getProducts({ text: "sometext" })
       .then((data) => {
         console.log("data ::", data);
