@@ -1,8 +1,8 @@
 import React from "react";
 import ChildContent from "../../components/ChildContent";
 
-export default function Index(props) {
-  const ParentContent = (props) => {
+export default function ParentChild(props) {
+  const ParentContent = () => {
     const parentFunction = (e) => {
       console.log("child data::", e);
     };

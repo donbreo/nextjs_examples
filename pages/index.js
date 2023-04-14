@@ -33,7 +33,11 @@ export default function Home() {
           </a>
           <a href="/session3" className={styles.card}>
             <h2>Session 3 &rarr;</h2>
-            <p>More advanced features for nextjs, page optimisation features.</p>
+            <p>Intermediate features for nextjs</p>
+          </a>
+          <a href="/session4" className={styles.card}>
+            <h2>Session 4 &rarr;</h2>
+            <p>Page optimisation features specific to NextJs</p>
           </a>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>

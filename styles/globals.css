@@ -20,6 +20,9 @@ a {
   width: fit-content;
   border: 1px solid #ccc;
 }
+.main{
+  min-height: calc(100vh - 150px);
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
