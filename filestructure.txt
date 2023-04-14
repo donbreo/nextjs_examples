@@ -1,0 +1,24 @@
+
+.
+└── actions
+│   └── callfrontendserver.js
+│   └── commonfunctions.js
+└── components
+│   └── Widget1.js
+│   └── Widget2.js
+└── pages
+│   └── api
+│       └── callbackendapi.js
+│   └── index.js
+│   └── _app.js
+│   └── profile
+│       └── myactivity.js
+│       └── mypurchases.js
+└── public
+│   └── img
+│   └── fonts
+
+
+
+
+
