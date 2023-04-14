@@ -15,7 +15,10 @@ export default function Index() {
               <Link href="/session4/config">{`config changes`}</Link>
             </li>
             <li className={styles.contentElement}>
-              <Link href="/session4/config">{`Dynamic import`}</Link>
+              <Link href="/session4/dynamic">{`Dynamic import`}</Link>
+            </li>
+            <li className={styles.contentElement}>
+              <Link href="/session4/lazyload">{`Lazy Load`}</Link>
             </li>
           </ul>
         </div>
