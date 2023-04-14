@@ -13,7 +13,7 @@ export default function Header() {
         <div className={styles.innerWrapper}>
           <div style={{padding:"25px"}}>
             <Image
-              src={`/nextjs.png`}
+              src={`https://picsum.photos/346/479?random=1`}
               alt="Picture of the author"
               width={200}
               height={50}
