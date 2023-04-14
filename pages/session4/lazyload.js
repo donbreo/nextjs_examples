@@ -9,7 +9,7 @@ export default function Home() {
   const [showComponent, setShow] = useState(false);
   return (
     <div>
-      <button onClick={() => setShow(true)}></button>
+      <button onClick={() => setShow(true)}>{`Load component now.`}</button>
       {showComponent && <ParentChild></ParentChild>}
     </div>
   );
