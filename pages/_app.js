@@ -7,7 +7,8 @@ import Layout from "../components/layout";
 function MyApp({ Component, pageProps }) {
   return (
     <Provider store={store}>
-      <Layout>
+      <Layout
+      {...pageProps}>
       <Component {...pageProps} />
       </Layout>
     </Provider>
